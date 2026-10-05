@@ -2,6 +2,7 @@
 # WIP
 
 ![.misc/IMG_1996.jpg](Image of board on an LCD during development)
+
 *Image of board on an LCD during development*
 
 This project is for a generic LCD backpack, similar to the many ones out there, with some distinct features that lead me to build my own:
