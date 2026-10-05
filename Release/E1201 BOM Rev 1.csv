@@ -1,0 +1,33 @@
+Reference,Qty,DNP,Part Number,Description,Value
+C1,1,,,"Capacitor, 100pF, 0805",100pF
+"C2,C4,C5,C6",4,,,"Capacitor, 100nF, 0805",100nF
+"C3,C7",2,,,"Capacitor, 10uF, 0805",10uF
+"C8,C10",2,,,"Capacitor, 2.2uF, 0805",2.2uF
+C9,1,,,"Capacitor, 1uF, 0805",1uF
+"D1,D2",2,,ESDA14V2SC5,"Quad TVS Diode Array, 14.2V Standoff, 4 Channels, 400W, ±30kV, SOT-23-5",
+D3,1,,SMF5V0A,"200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF",
+F1,1,,0ZCJ0050FF2G,"Polyfuse, 500mA, 1206",500mA
+FB1,1,,BLM21AG102SN1D,"Ferrite bead, 0805",FerriteBead
+J1,1,,,"Header, 0.1”, 1x2, Right Angle",Screw_Terminal_01x02
+"J2,J3",2,,,"Header, 0.1”, 1x4, Right Angle",Conn_01x04_Socket
+J4,1,,,"Header, 0.1”, 1x6, Right Angle",Conn_01x06_Socket
+J5,1,,SM04B-SRSS-TB,,QWIIC
+J7,1,,,"Header, 0.1”, 2x8, Right Angle",Conn_02x08_Odd_Even
+J8,1,,,"Header, 0.1”, 1x18, Right Angle",Conn_01x18
+L1,1,,CBC3225T4R7MR,"Inductor, 1210",4.7uH
+"Q1,Q2,Q3",3,,MMBF170,"MOSFET, 0.5A Id, 60V Vds, N-Channel, SOT-23",
+"R1,R2",2,DNP,,"Resistor, 5.1k, 1%, 0805",5.1k
+"R3,R4,R5,R8,R9",5,,,"Resistor, 10k, 1%, 0805",10k
+R6,1,,,"Resistor, 20k, 1%, 0805",20k
+R7,1,,,"Resistor, 180k, 1%, 0805",180k
+"R10,R11",2,,,"Resistor, 5.1k, 1%, 0805",5.1k
+"R12,R13,R14",3,,,"Resistor, 510 Ohm, 1%, 0805",510
+RV1,1,,3214X-1-103E,"Potentiometer, 10k, Vertical, SMD",10k
+SW1,1,,KMR211G LFS,"Switch, SPST, SMD",SW_Push
+U1,1,,TXU0304PW,"4-Bit Bidirectional Voltage-Level Translator, Fixed Direction, 1.08 - 5.5V , TSSOP-14",
+U2,1,,TXU0202DCU,"2-Bit Unidirectional Voltage-Level Translator Fixed Direction , VSSOP-8",
+U3,1,,TCA9517ADGK,"Level-Translating I2C Bus Buffer/Repeater, VSSOP-8",
+U4,1,,TPS61222DCK,"400 mA Step-Up Converter, Fixed 5V Output Voltage, 0.7-5.5V Input Voltage, SC-70",
+U5,1,,"PIC16F18154-xSS
+PIC16F18155-xSS","IC, Microcontroller, 7KW FLASH, 512B SRAM, SSOP-28",
+U6,1,,LM2776,"IC, Switched capacitor inverter, +2.7 to +5.5V to negative, 200mA, SOT-23-6",
