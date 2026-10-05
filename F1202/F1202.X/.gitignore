@@ -1,0 +1,16 @@
+*.inx
+*.log
+_build/
+build/
+cmake/
+debug/
+dist/
+out/
+
+
+.generated_files/
+nbproject/private/
+nbproject/*.mk
+nbproject/*.bash
+nbproject/Makefile-genesis.properties
+nbproject/queuelogs/

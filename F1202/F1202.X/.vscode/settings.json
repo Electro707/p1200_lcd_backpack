@@ -1,0 +1,18 @@
+{
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}/_build/mplab_test/default",
+    "mplab.clangd.languageSupportMode": "cpptools-compile-db",
+    "cmake.sourceDirectory": "${workspaceFolder}/cmake/mplab_test/default",
+    "search.exclude": {
+        "_build/": true,
+        "cmake/": true,
+        "npproject/": true,
+        "out/": true
+    },
+    "memory-inspector.debugTypes": [
+        "arm-debugger",
+        "embedded-debug",
+        "gdb",
+        "gdbtarget",
+        "mplab-core-da"
+    ]
+}
