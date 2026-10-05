@@ -1,2 +1,6 @@
 *-backups
 .history
+
+Gerber*/
+.bak/
+*.zip

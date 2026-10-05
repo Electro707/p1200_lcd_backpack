@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SparkFun-Qwiic") (type "KiCad") (uri "/home/electro/Downloads/SparkFun_Qwiic_Logo_-_KiCad/SparkFun-Qwiic.kicad_sym") (options "") (descr ""))
+)

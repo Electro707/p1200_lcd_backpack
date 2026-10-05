@@ -1,0 +1,51 @@
+Unknown List
+
+Schematic Part#: E1201 Rev 1
+PCB Part#: 
+Reviewers: JB
+Date: 2026-08-23
+Notes:
+    
+
+Schematic, Generic: 
+- [ X ] Run ERC, ensure all errors are accounted for (s1)
+- [ X ] Ensure title block is somewhat correct (s2)
+- [ X ] Ensure a nominal passive voltage/power/tolerances spec are listed (s3)
+- [N/A] Check that all passives with non-nominal rating (especially capacitor voltage) is explicitly called out (s4)
+- [ X ] Check pinout of any previously unused symbol against datasheet (s5)
+- [ X ] Ensure footprint of symbols are set to maximal pad size if pcb space allows for hand-solderability (s6)
+- [ X ] Inverted signals should be indicated (bar on top or _N suffix) (s7)
+
+Schematic, Digital: 
+- [ X ] Check that a microcontroller's pin functions is allowed on that pin, either fixed function per pin or an internal mux (sdig1)
+        > mcu has pps, check all IO ports required can be connected
+- [ X ] Double check I2C and SPI connections (SDA vs SCL for example) (sdig2)
+- [ X ] Triple check UART directionality, or add poka-yoke (sdig3)
+
+PCB, Generic: 
+- [ X ] Check design rule check matches manufacturer tolerances, if different than default (p1)
+- [ X ] Run DRC, ensure no unexpected errors (p2)
+- [ X ] Ensure copper pours have no neck-downs (p3)
+- [ X ] Ensure copper pours are tied to a net (p4)
+- [ X ] Check footprint (especially self-made) of any previously unused footprint against datasheet (p5)
+
+PCB, Silkscreen: 
+- [ X ] Check that reference designators are close to their component (ps1)
+- [ X ] Check for pcb part number and revision on silkscreen (ps2)
+- [ X ] Check that silkscreen text is visible and not obscured by components in 3D viewer, if possible (ps3)
+- [ X ] Check that silkscreen on bottom side of the board are inverted (ps4)
+- [ X ] (optional) Add easter eggs (ps5)
+
+PCB, Mechanical: 
+- [N/A] Check that the board with components fits inside the enclosure, including mounting hole size (if already designed or fixed) (pm1)
+- [ X ] Check for screw head clearance, and mark outline in silkscreen if room allows (pm2)
+
+PCB, High Voltage: 
+- [N/A] Ensure adequate clearance and creepage around high voltage traces (phv1)
+- [N/A] For any area of the board with >50v, add a high voltage warning on the silkscreen (phv2)
+
+PCB, Feedback Resistors: 
+- [N/A] Check that high impedance paths, such as those feedback resistors in an op-amp circuit, are close to the component (pf1)
+
+Gerbers: 
+- [ X ] Quickly go through generated gerber files and individually check each layer (g1)
